@@ -64,8 +64,7 @@ declare global {
   }
   namespace JSXElements {
     export interface AppProfileAttributes extends HTMLAttributes {
-      
-        match?: MatchResults
+      match?: MatchResults;
     }
   }
 }
@@ -100,3 +99,4 @@ declare global {
   }
 }
 
+declare global { namespace JSX { interface StencilJSX {} } }
